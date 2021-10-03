@@ -23,7 +23,18 @@ Answers:
    code and returns true/false if the string contains valid parentheses. There is also some test data/logic 
    that will run if you run the file.
 
+5. 
 
+6. In the file `QuestionSix.java` you will find logic to scan a csv file and output a new file for insurance 
+   companies.
+   Instructions to run QuestionSix.java:
+   1. drop desired .csv file into the `/questionSixInput` directory (`example.csv` is provided)
+      - file format: `<User Id>,<First Name>,<Last Name>,<Version>,<Insurance Company>`
+   2. compile java code: `javac QuestionSix.java`
+   3. run with csv file name as param: `java QuestionSix "example.svc"`
+   
+   New csv files titled `<Insurance Company>.csv` will be dumped in the `/questionSixOutput` directory
+   with the format `<User Id>,<First Name>,<Last Name>,<Version>`
    
 
 
