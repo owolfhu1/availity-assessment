@@ -19,6 +19,10 @@ Answers:
 3. Availity provides a platform for healthcare professionals to find digital products and services, manage
    healthcare translations and patent data.
 
+4. In the file `question-four.js` you will find a function called parenthesesChecker which takes a string of 
+   code and returns true/false if the string contains valid parentheses. There is also some test data/logic 
+   that will run if you run the file.
+
 
    
 
