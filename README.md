@@ -17,13 +17,14 @@ Answers:
    - Article: https://www.wsj.com/articles/overwhelmed-by-covid-19-patients-alaskas-doctors-make-life-and-death-decisions-11633253401
    
 3. Availity provides a platform for healthcare professionals to find digital products and services, manage
-   healthcare translations and patent data.
+   healthcare transactions and patent data.
 
 4. In the file `question-four.js` you will find a function called parenthesesChecker which takes a string of 
    code and returns true/false if the string contains valid parentheses. There is also some test data/logic 
    that will run if you run the file.
 
-5. 
+5. In the directory `question-five` you will find a simple react application with a provider registration form
+   as well as an output of registered providers.
 
 6. In the file `QuestionSix.java` you will find logic to scan a csv file and output a new file for insurance 
    companies.
@@ -49,12 +50,11 @@ Questions copied:
 5. Coding exercise from a frontend perspective: Healthcare providers request to be part of the Availity
    system. Using React framework, create a registration user interface so healthcare providers can
    electronically join Availity. The following data points should be collected:
-    First and Last Name
-    NPI number
-    Business Address
-    Telephone Number
-    Email address
-
+   - First and Last Name
+   - NPI number
+   - Business Address
+   - Telephone Number
+   - Email address
 6. Coding exercise: Availity receives enrollment files from various benefits management and enrollment
    solutions (I.e. HR platforms, payroll platforms). Most of these files are typically in EDI format. However,
    there are some files in CSV format. For the files in CSV format, write a program in a language that seems
@@ -62,7 +62,7 @@ Questions copied:
    own file. Additionally, sort the contents of each file by last and first name (ascending). Lastly, if there are
    duplicate User Ids for the same Insurance Company, then only the record with the highest version should
    be included. The following data points are included in the file:
-    User Id (string)
-    First and Last Name (string)
-    Version (integer)
-    Insurance Company (string)
+   - User Id (string)
+   - First and Last Name (string)
+   - Version (integer)
+   - Insurance Company (string)
